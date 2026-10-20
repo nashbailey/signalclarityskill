@@ -44,7 +44,8 @@ The wiki keeps its living organizational decisions on one page: `/wiki-guide/sta
 - Determine the current operator from reliable Claude account, project, or conversation context. Never hardcode any person's identity.
 - Use established operator initials when available; otherwise derive them from a reliably identified full name. If ambiguous, ask before preparing a write.
 - Do not treat an uploaded document's author as the current operator without confirmation.
-- Begin every created or updated page with: `> **Last updated by:** [INITIALS] | **Date:** [Month D, YYYY]`.
+- Begin every created page, and every page whose body text you change, with: `> **Last updated by:** [INITIALS] | **Date:** [Month D, YYYY]`.
+- Changes to page metadata only (description or tags) leave the page body, including the attribution line, untouched.
 - Use the current date in the exact `Month D, YYYY` format.
 
 ## Discovery and classification
