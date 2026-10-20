@@ -97,6 +97,7 @@ These are defaults. Where the Wiki Conventions page sets a different structure o
 ## Preview, approval, execution
 
 - Before every write, show **title, path, tags, full final Markdown**, and the full final content for **every affected page**, including navigation and Home pages. For updates, also show a meaningful diff/summary and existing identity; for moves, show old and new paths.
+- If the Wiki Conventions page assigns owners, note the owner in the preview when an affected page belongs to someone other than the operator.
 - Wait for explicit approval of that specific change set. A substantive revision requires a new preview. Silence is not approval.
 - Before executing, re-check pages for intervening edits; if conflicting changes exist, stop and re-preview.
 - Execute only approved changes, verify content, title, path, tags, and links through available tools, and report exactly what succeeded or failed.
